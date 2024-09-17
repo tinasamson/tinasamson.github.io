@@ -1,0 +1,166 @@
+.box-image-text .image {
+  min-height: 190px;
+  max-height: 190px;
+}
+
+.box-image-text .image img {
+  max-height: 190px;
+  margin: auto;
+}
+
+.box-simple {
+  min-height: 230px;
+}
+/* --------------------- navbar ---------------------- */
+.navbar-brand img {
+    max-height: 110px;
+}
+.navbar-default {
+    background-color: #CB6CE6;
+    min-height: 100px;
+}
+#navbar a{
+    color: white;
+    font-size: larger;
+    font-family: monospace;
+    text-decoration: none;
+    font-weight: normal;
+    text-transform: none;
+    padding-left: 40px;
+    padding-right: 40px;
+    top: 10px;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #ff313190;
+}
+.navbar-default .navbar-toggle {
+    border-color: #ff313190;
+    color: white;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: #ff313190;
+}
+.navbar ul.nav > li > a:hover {
+border-top: transparent;
+}
+/* --------------------- buttons ---------------------- */
+.btn-secondary{
+    border-color: #CB6CE6;
+    background-color: #CB6CE6;
+    color: white;
+    text-transform: none;
+}
+.btn-secondary:hover{
+    border-color: #CB6CE6;
+    background-color: white;
+    color: #CB6CE6;
+}
+.btn:focus-visible, .btn-secondary:focus-visible, .btn-secondary:active, .btn:active{
+    border-color: #CB6CE6;
+    background-color: #CB6CE6;
+    color: white;
+}
+/* --------------------- Carousel ---------------------- */
+.home-carousel {
+    background-image: url(/images/background-1.png);
+    background-size: cover;
+}
+.home-carousel .dark-mask {
+    background: transparent;
+}
+.carousel-text {
+    position: relative;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.carousel-text h1 {
+    font-size: 80px;
+    color: #CD6CE6;
+    font-family: "Sofia", sans-serif;
+    text-transform: capitalize;
+    font-weight: lighter;
+}
+#home a {
+    margin-bottom: 5%;
+    font-size: x-large;
+}
+.opacitywhite {
+    background-color: rgb(255 255 255 / 77%);
+    border-radius: 35px;
+}
+.aboutimage {
+    background-image: url(/images/accesorios.png);
+    background-size: contain;
+    margin: 0;
+    padding-bottom: 5%;
+}
+/* --------------------- About ---------------------- */
+#about h1 {
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: black;
+    font-family: "Sofia", sans-serif;
+    font-size: xxx-large;
+}
+#about h5 {
+    text-align: center;
+    color: white;
+    font-size: x-large;
+    padding-top: 25px;
+}
+#about h6 {
+    padding: 2% 2% 5% 2%;
+    font-family: monospace;
+    font-weight: 350;
+    color: black;
+    font-size: large;
+}
+.opacityviolet {
+    background-color: #ce6ce6;
+    border-radius: 35px;
+    border: 15px double white;
+    min-height: 350px;
+}
+/* --------------------- Contact ---------------------- */
+.contactimage {
+    background-image: url(/images/background-2.png);
+    background-size: cover;
+    padding: 8% 0% 5% 12%;
+}
+.contactimage a{
+    color: #CB6CE6;
+    text-decoration: none;
+    font-weight: 500;
+}
+.contactimage h2{
+    font-size: 2.50em;
+}
+.contactimage h5{
+    font-size: 1.50em;
+}
+#contact {
+    margin:0;
+}
+/* --------------------- Footer ---------------------- */
+footer{
+    background-color: #ff3131;
+}
+footer p {
+    color: white;
+    text-align: center;
+    padding-top: 15%;
+}
+footer img {
+    width: 80%;
+}
+@media (max-width: 448px) {
+   .carousel-text h1 {font-size: 60px;} 
+   .contactimage{
+    padding: 7% 0% 10% 7%;
+    background-position-x: center;}
+}
+@media (max-width: 767px){
+    .navbar-brand img{max-height: 70px;}
+}
