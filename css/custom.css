@@ -109,58 +109,73 @@ border-top: transparent;
     color: white;
     font-size: x-large;
     padding-top: 25px;
+    font-family: monospace;
 }
 #about h6 {
     padding: 2% 2% 5% 2%;
     font-family: monospace;
     font-weight: 350;
-    color: black;
-    font-size: large;
+    color: white;
+    font-size: medium;
 }
 .opacityviolet {
     background-color: #ce6ce6;
     border-radius: 35px;
     border: 15px double white;
-    min-height: 350px;
+    min-height: 240px;
 }
 /* --------------------- Contact ---------------------- */
 .contactimage {
     background-image: url(/images/background-2.png);
     background-size: cover;
-    padding: 8% 0% 5% 12%;
+    padding: 5% 0% 5% 5%;
+    background-position: top;
 }
 .contactimage a{
-    color: #CB6CE6;
+    color: #ff3131;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 800;
 }
 .contactimage h2{
     font-size: 2.50em;
+    font-family: monospace;
 }
 .contactimage h5{
     font-size: 1.50em;
+    font-family: monospace;
 }
 #contact {
     margin:0;
 }
+.svg-vector{
+    text-align: center;
+}
+.svg-vector img{
+    max-width: 100px;
+}
 /* --------------------- Footer ---------------------- */
 footer{
     background-color: #ff3131;
+    text-align: center;
 }
 footer p {
     color: white;
     text-align: center;
     padding-top: 15%;
+    font-family: monospace;
 }
 footer img {
     width: 80%;
 }
-@media (max-width: 448px) {
+@media (max-width: 992px) {
    .carousel-text h1 {font-size: 60px;} 
    .contactimage{
-    padding: 7% 0% 10% 7%;
+    padding: 15% 0% 10% 7%;
     background-position-x: center;}
 }
 @media (max-width: 767px){
     .navbar-brand img{max-height: 70px;}
+    .svg-vector img{
+        padding-bottom: 10px;
+    }
 }
