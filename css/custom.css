@@ -78,7 +78,7 @@ border-top: transparent;
     font-size: 80px;
     color: #CD6CE6;
     font-family: "Sofia", sans-serif;
-    text-transform: capitalize;
+    text-transform: initial;
     font-weight: lighter;
 }
 #home a {
