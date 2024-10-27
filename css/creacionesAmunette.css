@@ -1,0 +1,17 @@
+@font-face {
+    font-family: amaticSC;
+    src: url(/static/fonts/AmaticSC-Regular.ttf);
+}
+
+@font-face {
+    font-family: emilysCandy;
+    src: url(/static/fonts/EmilysCandy-Regular.ttf);
+}
+
+body{
+    font-family: amaticSC;
+}
+
+h1, h2, h3{
+    font-family: emilysCandy;
+}
