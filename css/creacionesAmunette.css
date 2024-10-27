@@ -1,17 +1,33 @@
 @font-face {
     font-family: amaticSC;
-    src: url(/static/fonts/AmaticSC-Regular.ttf);
+    src: url(/fonts/AmaticSC-Regular.ttf);
 }
 
 @font-face {
     font-family: emilysCandy;
-    src: url(/static/fonts/EmilysCandy-Regular.ttf);
+    src: url(/fonts/EmilysCandy-Regular.ttf);
 }
 
-body{
-    font-family: amaticSC;
-}
-
-h1, h2, h3{
+.blog a{
     font-family: emilysCandy;
+    font-weight: bolder;
+    color: #e086b9;
+}
+.blog a:hover, .blog a:focus{
+    font-weight: bolder;
+    background: #99d2f9;
+    color:#e086b9;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: amaticSC;
+    font-size: xx-large;
+    font-weight: bold;
+    color: #e086b9;
+}
+
+#heading-breadcrumbs h1, #blog-listing-medium .post h2 a {
+    font-family: emilysCandy;
+    font-weight: bold;
+    color: #e086b9;
 }
