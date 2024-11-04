@@ -11,23 +11,23 @@
 .blog a{
     font-family: emilysCandy;
     font-weight: bolder;
-    color: #e086b9;
+    color: #d56aa0;
 }
 .blog a:hover, .blog a:focus{
     font-weight: bolder;
-    background: #99d2f9;
-    color:#e086b9;
+    background: #8dcff4;
+    color:#d56aa0;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: amaticSC;
     font-size: xx-large;
     font-weight: bold;
-    color: #e086b9;
+    color: #d56aa0;
 }
 
 #heading-breadcrumbs h1, #blog-listing-medium .post h2 a {
     font-family: emilysCandy;
     font-weight: bold;
-    color: #e086b9;
+    color: #d56aa0;
 }

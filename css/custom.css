@@ -16,7 +16,7 @@
     max-height: 110px;
 }
 .navbar-default {
-    background-color: #CB6CE6;
+    background-color: #9f75ad;
     min-height: 100px;
 }
 #navbar a{
@@ -31,33 +31,33 @@
     top: 10px;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-    background-color: #ff313190;
+    background-color: #d1004a;
 }
 .navbar-default .navbar-toggle {
-    border-color: #ff313190;
+    border-color: #d1004a;
     color: white;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    background-color: #ff313190;
+    background-color: #d1004a;
 }
 .navbar ul.nav > li > a:hover {
 border-top: transparent;
 }
 /* --------------------- buttons ---------------------- */
 .btn-secondary{
-    border-color: #CB6CE6;
-    background-color: #CB6CE6;
+    border-color: #9f75ad;
+    background-color: #9f75ad;
     color: white;
     text-transform: none;
 }
 .btn-secondary:hover{
-    border-color: #CB6CE6;
+    border-color: #9f75ad;
     background-color: white;
-    color: #CB6CE6;
+    color: #9f75ad;
 }
 .btn:focus-visible, .btn-secondary:focus-visible, .btn-secondary:active, .btn:active{
-    border-color: #CB6CE6;
-    background-color: #CB6CE6;
+    border-color: #9f75ad;
+    background-color: #9f75ad;
     color: white;
 }
 /* --------------------- Carousel ---------------------- */
@@ -76,7 +76,7 @@ border-top: transparent;
 }
 .carousel-text h1 {
     font-size: 80px;
-    color: #CD6CE6;
+    color: #9f75ad;
     font-family: "Sofia", sans-serif;
     text-transform: initial;
     font-weight: lighter;
@@ -119,7 +119,7 @@ border-top: transparent;
     font-size: medium;
 }
 .opacityviolet {
-    background-color: #ce6ce6;
+    background-color: #9f75ad;
     border-radius: 35px;
     border: 15px double white;
     min-height: 240px;
@@ -132,7 +132,7 @@ border-top: transparent;
     background-position: top;
 }
 .contactimage a{
-    color: #ff3131;
+    color: #d1004a;
     text-decoration: none;
     font-weight: 800;
 }
@@ -155,7 +155,7 @@ border-top: transparent;
 }
 /* --------------------- Footer ---------------------- */
 footer{
-    background-color: #ff3131;
+    background-color: #d1004a;
     text-align: center;
 }
 footer p {
